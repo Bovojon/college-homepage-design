@@ -1,0 +1,46 @@
+.navbar {
+  background-color:#cccccc !important;
+  color: blue !important;
+  border-radius: 0px !important;
+}
+
+.main{
+  padding: 3px !important;
+  margin: 0px;
+}
+
+.image {
+  padding: 0px 2px !important;
+  margin-right: 15px;
+}
+
+.events {
+  padding: 7px 3px !important;
+  margin-bottom: 3px;
+  border-bottom:solid 1px;
+}
+.events:hover{
+  box-shadow: 1px 1px 10px 1px #888888;
+}
+
+.event {
+  padding: 0px 0px !important;
+}
+
+.news {
+  padding: 3px 3px !important;
+  border-bottom:dashed 1px;
+  margin-bottom: 5px;
+}
+.news:hover{
+  box-shadow: 1px 1px 10px 1px #888888;
+  border-bottom:dashed 0px;
+}
+
+.new {
+  padding: 0px 2px !important;
+}
+
+.newdate {
+  padding: 0px 2px !important;
+}
