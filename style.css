@@ -9,9 +9,19 @@
   margin: 0px;
 }
 
+.container {
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  margin-bottom: 100px;
+}
+
 .image {
   padding: 0px 2px !important;
   margin-right: 15px;
+  transition: all .2s ease-in-out;
+}
+.image:hover{
+  transform: scale(1.1);
 }
 
 .events {
@@ -21,6 +31,8 @@
 }
 .events:hover{
   box-shadow: 1px 1px 10px 1px #888888;
+  cursor:pointer;
+  border-bottom:solid 0px;
 }
 
 .event {
@@ -29,12 +41,11 @@
 
 .news {
   padding: 3px 3px !important;
-  border-bottom:dashed 1px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 .news:hover{
   box-shadow: 1px 1px 10px 1px #888888;
-  border-bottom:dashed 0px;
+  cursor:pointer;
 }
 
 .new {
@@ -44,3 +55,17 @@
 .newdate {
   padding: 0px 2px !important;
 }
+
+
+.profile{
+  background-color: #6c2a38;
+  padding:10px 10px;
+  color: white;
+}
+
+.md-headline{
+  font-weight: 700 !important;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
